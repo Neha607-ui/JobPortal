@@ -21,7 +21,6 @@ app.use(cookieParser());
 //     origin: 'http://localhost:5173',
 //     credentials: true,
 // }
-import cors from 'cors';
 
 const corsOptions ={
   origin: ['https://job-portal-alpha-sooty.vercel.app'],
